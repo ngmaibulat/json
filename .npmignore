@@ -1,4 +1,5 @@
 src
+*.sh
 .editorconfig
 .prettierrc.json
 checklist.md
