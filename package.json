@@ -9,7 +9,8 @@
     "test": "node --test",
     "build": "tsc",
     "build:watch": "tsc -w",
-    "commit": "tsc; git add . ; git commit -a -m minor; git push"
+    "commit": "tsc; git add . ; git commit -a -m minor; git push",
+    "publish": "tsc; npm run commit; npm version patch; npm publish"
   },
   "keywords": [
     "json",
@@ -28,5 +29,8 @@
   "license": "MIT",
   "devDependencies": {
     "@types/node": "^18.11.9"
+  },
+  "dependencies": {
+    "@aibulat/isfile": "^0.0.3"
   }
 }
