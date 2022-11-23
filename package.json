@@ -10,8 +10,7 @@
     "build": "tsc",
     "build:watch": "tsc -w",
     "commit": "tsc; git add . ; git commit -a -m minor; git push",
-    "prepublish1": "tsc; npm run commit; npm version patch",
-    "prepublish": "npm version patch"
+    "alga": "bash publish.sh"
   },
   "keywords": [
     "json",
