@@ -5,6 +5,16 @@ a good intellisense help from the IDE, availability of types.
 That would make work easier compared to dealing with a plain Object.
 Here is the example, how you can achieve this.
 
+Having user.json:
+
+```json
+{
+  "name": "Aibulat",
+  "email": "aibulat@example.com",
+  "position": "NodeJS Developer"
+}
+```
+
 ```ts
 import { readJson } from "@aibulat/json";
 
