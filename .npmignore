@@ -1,4 +1,7 @@
 src
+.editorconfig
+.prettierrc.json
+checklist.md
 
 tsconfig.json
 tsc-types.json
