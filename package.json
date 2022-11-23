@@ -9,7 +9,7 @@
     "test": "node --test",
     "build": "tsc",
     "build:watch": "tsc -w",
-    "commit": "git add . ; git commit -a -m minor; git push"
+    "commit": "tsc; git add . ; git commit -a -m minor; git push"
   },
   "keywords": [
     "json",
