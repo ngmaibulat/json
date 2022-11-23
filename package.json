@@ -8,13 +8,22 @@
   "scripts": {
     "test": "node --test",
     "build": "tsc",
-    "build:watch": "tsc -w"
+    "build:watch": "tsc -w",
+    "commit": "git add . ; git commit -a -m minor; git push"
   },
   "keywords": [
     "json",
     "read json",
     "generics"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ngmaibulat/json.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ngmaibulat/json/issues"
+  },
+  "homepage": "https://github.com/ngmaibulat/json#readme",
   "author": "Aibulat",
   "license": "MIT",
   "devDependencies": {
