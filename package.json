@@ -1,0 +1,23 @@
+{
+  "name": "@aibulat/json",
+  "version": "0.0.1",
+  "description": "",
+  "main": "./dist/readJson.js",
+  "type": "module",
+  "types": "./dist/readJson.d.ts",
+  "scripts": {
+    "test": "node --test",
+    "build": "tsc",
+    "build:watch": "tsc -w"
+  },
+  "keywords": [
+    "json",
+    "read json",
+    "generics"
+  ],
+  "author": "Aibulat",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^18.11.9"
+  }
+}
